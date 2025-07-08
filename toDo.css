@@ -20,7 +20,11 @@
     padding: 20px 10px;
     border-radius: 5px;
     box-shadow: 0  30px 50px rgba(0, 0, 0, 0.5);
-    width: 300px;
+    width: 100%;
+    max-width: 500px;
+    padding: 16px;
+    margin: 0 auto;
+    wi
 }
 
 .to-do-list h2{
@@ -90,7 +94,7 @@
 }
 
 .to-do-list .newtask input{
-    /* flex: 1; */
+    flex: 1;
     outline: none;
     border: 1px solid rgb(240, 233, 233);
     padding: 8px ;
