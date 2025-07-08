@@ -91,6 +91,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 100%;
 }
 
 .to-do-list .newtask input{
@@ -197,3 +198,13 @@
     color: #fff;
 }
 
+@media (max-width:500px) {
+    /* .to-do-list .newtask{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    } */
+    .to-do-list .newtask input{
+        width: 80%;
+    }
+}
