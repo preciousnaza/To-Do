@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TO-DO List App</title>
+
+            <!-- FONT FAMILY -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+     <!-- CSS LINK -->
+    <link rel="stylesheet" href="toDo.css">
+</head>
+<body>
+    
+    <div class="container">
+        <div class="to-do-list">
+            <h2>To-Do List</h2>
+
+            <div class="stat-container">
+                <div class="details">
+                    <h3>keep it up!</h3>
+                    <div class="progressbar">
+                        <div class="progress"></div>
+                    </div>
+                </div>
+                <div class="stat-number">
+                    <p class="number">0/0</p>
+                </div>
+            </div>
+
+            <div class="newtask">
+                <input class="search" type="text" placeholder="Add a new task....">
+                <button class="add-btn"><ion-icon name="add"></ion-icon></button>
+            </div>
+
+            <ul class="task-list"></ul>
+        </div>
+    </div>
+
+    <!-- ION-ICON LINK -->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+    <!-- confetti link -->
+    <script src="https://cdn.jsdelivr.net/npm/@tsparticles/confetti@3.0.3/tsparticles.confetti.bundle.min.js"></script>
+
+    <!-- SCRIPT LINK -->
+     <script src="toDo.js"></script>
+</body>
+</html>
